@@ -46,6 +46,31 @@ python cli.py order --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 -
 - A log file named `trading_bot.log` is created in the project root.
 - The CLI prints the endpoint in use and reports order summary details.
 
+## Logs
+
+- `log_file.txt`: a plain-text record of two sample orders placed on the Binance Futures Testnet during a manual run. It contains timestamped request and response log lines.
+
+## Adding screenshots to this repository
+
+1. Create a `screenshots/` directory at the repository root and add your image files (e.g., `screenshots/trade1.png`).
+
+2. Commit and push the images:
+
+```bash
+git add screenshots/trade1.png
+git commit -m "Add screenshot: trade1"
+git push origin main
+```
+
+3. Reference images in `README.md` using Markdown:
+
+```markdown
+![Order confirmation](screenshots/trade1.png)
+```
+
+Alternatively, on GitHub you can drag-and-drop images into the issue/PR/editor to upload and embed them automatically.
+
+
 ## Files
 
 - `bot/client.py`: Binance Futures Testnet API wrapper

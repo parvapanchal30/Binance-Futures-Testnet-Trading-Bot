@@ -17,6 +17,9 @@ env/
 *.log
 trading_bot.log
 
+# Allow this specific log to be committed
+!trading_bot_log.log
+
 # Editor settings
 .vscode/
 .idea/

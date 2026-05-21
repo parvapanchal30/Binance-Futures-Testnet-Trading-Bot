@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```bash
 BINANCE_API_KEY=your_testnet_api_key
 BINANCE_API_SECRET=your_testnet_api_secret
-
+# optional: BINANCE_FUTURES_BASE_URL=https://testnet.binancefuture.com
 ```
 
 > Note: These must be Binance Futures USDT-M testnet credentials. Regular Binance or spot-testnet API keys will not work for the futures testnet endpoint.

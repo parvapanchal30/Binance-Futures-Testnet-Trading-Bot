@@ -50,26 +50,33 @@ python cli.py order --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 -
 
 - `log_file.txt`: a plain-text record of two sample orders placed on the Binance Futures Testnet during a manual run. It contains timestamped request and response log lines.
 
+## Screenshots
+
+Here are the actual screenshots captured during the testnet order runs:
+
+![Market order screenshot](screenshots/Market_order.png)
+
+![Limit order screenshot](screenshots/Limit_order.png)
+
 ## Adding screenshots to this repository
 
-1. Create a `screenshots/` directory at the repository root and add your image files (e.g., `screenshots/trade1.png`).
+1. Add image files to the existing `screenshots/` directory at the repository root.
 
 2. Commit and push the images:
 
 ```bash
-git add screenshots/trade1.png
-git commit -m "Add screenshot: trade1"
+git add screenshots/your-file.png
+git commit -m "Add screenshot: your-file"
 git push origin main
 ```
 
 3. Reference images in `README.md` using Markdown:
 
 ```markdown
-![Order confirmation](screenshots/trade1.png)
+![Order confirmation](screenshots/your-file.png)
 ```
 
 Alternatively, on GitHub you can drag-and-drop images into the issue/PR/editor to upload and embed them automatically.
-
 
 ## Files
 
